@@ -1,0 +1,10 @@
+# Trabajo original de: https://cs.stanford.edu/people/karpathy/convnetjs/demo/rldemo.html
+
+# Objetivo del agente
+Es una buena demostración de un algoritmo de aprendizaje por refuerzo (Q Learning). en donde un agente 2D que tiene 9 ojos apuntando en diferentes ángulos hacia adelante y cada ojo percibe 3 valores a lo largo de su dirección (hasta una cierta distancia máxima de visibilidad): distancia a una pared, distancia a una cosa verde o distancia a una cosa roja. El agente navega usando una de 5 acciones que lo giran en diferentes ángulos. Las cosas rojas son manzanas y el agente recibe una recompensa por comerlas. Las cosas verdes son veneno y el agente recibe una recompensa negativa por comerlas. El entrenamiento toma unos cuantos minutos con los parámetros actuales.
+
+Con el tiempo, el agente aprende a evitar estados que conducen a recompensas bajas y elige acciones que lo llevan a estados mejores.
+
+
+# Ejecutar
+Descargar, abrirlo y levantar un servidor local
